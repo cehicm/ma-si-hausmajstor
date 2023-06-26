@@ -9,3 +9,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Initial setup
 - Favicon, logo
 - Hero component
+- React icons package
