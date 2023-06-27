@@ -5,7 +5,7 @@ import logoImage from "../../public/images/logo.png";
 export default function Hero() {
 	return (
 		<section>
-			<div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
+			<div className="relative flex flex-col-reverse py-16 px-6 lg:pt-0 lg:flex-col lg:pb-0">
 				<div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
 					<svg
 						className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
@@ -21,37 +21,37 @@ export default function Hero() {
 						alt="Logo Marko Simic hausmajstor usluge Beograd"
 					/>
 				</div>
-				<div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
+				<div className="relative flex flex-col items-start w-full max-w-xl mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
 					<div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-						<p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-							Brand new
+						<p className="inline-block py-3 px-4 mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400">
+							MA-SI hausmajstor
 						</p>
 						<h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-							Everything you
-							<br className="hidden md:block" />
-							can imagine{" "}
+							Vaša zamisao
+							<br className="hidden md:block" /> je naša{" "}
 							<span className="inline-block text-deep-purple-accent-400">
-								is real
+								misija
 							</span>
 						</h2>
 						<p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-							accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-							quae. explicabo.
+							Sa dugogodišnjim iskustvom i strastvenim pristupom, posvećeni smo
+							pružanju izvanrednih rezultata. Bez obzira da li vam je potrebna
+							hitna popravka, renoviranje prostora ili jednostavno želite
+							osvežiti izgled vašeg doma, mi smo tu da vam pomognemo.
 						</p>
 						<div className="flex items-center">
 							<Link
 								href="/"
-								className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+								className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-lightbrown hover:bg-white hover:text-lightbrown focus:shadow-outline focus:outline-none"
 							>
-								Get started
+								Ideje za preuređenje
 							</Link>
 							<Link
 								href="/"
 								aria-label=""
-								className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
+								className="inline-flex items-center font-semibold text-lightbrown transition-colors duration-200 hover:bg-lightbrown hover:text-white border border-lightbrown h-12 py-2 px-12 rounded"
 							>
-								Learn more
+								Kontakt
 							</Link>
 						</div>
 					</div>
