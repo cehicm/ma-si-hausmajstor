@@ -20,6 +20,7 @@ module.exports = {
 				lightprimary: "#FDF7F2",
 				dirtygray: "#A8A29C",
 				lightbrown: "#846D62",
+				black: "#404040",
 			},
 		},
 	},
