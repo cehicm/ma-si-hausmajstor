@@ -23,17 +23,14 @@ export default function Hero() {
 				</div>
 				<div className="relative flex flex-col items-start w-full max-w-xl mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
 					<div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-						<p className="inline-block py-3 px-4 mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400">
-							MA-SI hausmajstor
+						<p className="inline-block py-3 px-4 mb-3 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400">
+							Vaša zamisao je naša misija
 						</p>
-						<h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-							Vaša zamisao
-							<br className="hidden md:block" /> je naša{" "}
-							<span className="inline-block text-deep-purple-accent-400">
-								misija
-							</span>
-						</h2>
-						<p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
+						<h1 className="mb-5 font-sans font-bold tracking-tight text-gray-900 text-4xl sm:leading-none">
+							{" "}
+							MA-SI hausmajstor{" "}
+						</h1>
+						<p className="pr-5 mb-8 text-base text-gray-700 md:text-lg">
 							Sa dugogodišnjim iskustvom i strastvenim pristupom, posvećeni smo
 							pružanju izvanrednih rezultata. Bez obzira da li vam je potrebna
 							hitna popravka, renoviranje prostora ili jednostavno želite
