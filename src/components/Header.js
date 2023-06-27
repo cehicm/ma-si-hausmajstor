@@ -13,14 +13,14 @@ function Header() {
 
 	return (
 		<header
-			className={` flex justify-between sticky top-0 bg-lightprimary z-20 w-full px-6 lg:px-10 py-8 lg:py-4 opacity-100 ${
+			className={`flex justify-between sticky top-0 bg-lightprimary z-20 w-full px-6 lg:px-10 py-2 lg:py-4 opacity-100 ${
 				isNavOpen ? "h-screen flex-col" : "justify-between items-center"
 			} ${isClicked ? "animate-peekaboo" : ""} md:h-auto md:flex-row`}
 		>
 			<Link href="/" className={`md:hidden ${isNavOpen ? "hidden" : ""}`}>
 				<Image
 					src={logoImage}
-					className="cover h-24 w-24"
+					className="cover h-20 w-20"
 					alt="MA-Si Beograd hausmajstor logo"
 				/>
 			</Link>
