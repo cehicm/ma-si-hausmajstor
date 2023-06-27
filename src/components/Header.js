@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logoImage from "../../public/images/logo.png";
@@ -24,7 +24,7 @@ function Header() {
 					alt="MA-Si Beograd hausmajstor logo"
 				/>
 			</Link>
-			<div className="w-[80%] mx-auto flex flex-row-reverse md:flex-row gap-4 sm:items-center">
+			<div className="w-full max-w-7xl mx-auto flex flex-row-reverse md:flex-row gap-4 sm:items-center">
 				<TfiClose
 					className={`hover:cursor-pointer h-6 w-6 ${
 						isNavOpen ? "block self-start" : "hidden"
@@ -45,7 +45,11 @@ function Header() {
 				/>
 
 				<Link href="/" className="hidden md:block lg:mr-5">
-					<Image src={logoImage} height={40} alt="ozon logo image" />
+					<Image
+						className="w-[200px]"
+						src={logoImage}
+						alt="MA-Si Beograd hausmajstor logo "
+					></Image>
 				</Link>
 
 				<div
@@ -59,9 +63,9 @@ function Header() {
 						} md:flex md:flex-row md:justify-center lg:justify-start`}
 					>
 						<ul
-							className={`flex flex-col w-full md:w-fit md:m-0 text-left justify-center items-start mx-auto gap-2 md:gap-8 xl:gap-16 ${
+							className={`flex flex-col w-full md:w-fit lg:w-full max-w-3xl md:m-0 text-left justify-center lg:justify-start items-start mx-auto gap-2 md:gap-8 xl:gap-16 ${
 								isNavOpen ? "block" : "hidden"
-							} md:flex md:flex-row`}
+							} md:flex md:flex-row lg:grid grid-flow-col`}
 						>
 							<Link
 								className={`md:hidden md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize`}
@@ -70,9 +74,9 @@ function Header() {
 							>
 								Početna
 							</Link>
-							<div className="w-full">
+							<div className="w-full md:w-fit lg:col-start-5">
 								<Link
-									className="hover:text-lightbrown  relative md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize md:lowercase inline"
+									className="hover:text-lightbrown relative md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize inline lg:block lg:w-fit "
 									href="/usluge"
 									onMouseEnter={() => setHover((prev) => !prev)}
 									onMouseLeave={() => setHover((prev) => !prev)}
@@ -81,8 +85,8 @@ function Header() {
 									Usluge
 								</Link>
 								<BiChevronDown
-									className={`inline w-6 h-6 hover:cursor-pointer ${
-										isSubMenuOpen ? "rotate-180 pl" : "rotate-"
+									className={`inline md:hidden w-6 h-6 hover:cursor-pointer ${
+										isSubMenuOpen ? "rotate-180" : ""
 									}`}
 									onClick={() => setIsSubMenuOpen((prev) => !prev)}
 								/>
@@ -149,7 +153,7 @@ function Header() {
 							</div>
 
 							<Link
-								className="hover:text-lightbrown  md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize md:lowercase text-red-500"
+								className="hover:text-lightbrown  md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize text-red-500 lg:w-fit"
 								href="#"
 								onClick={() => setIsNavOpen((prev) => !prev)}
 							>
@@ -157,7 +161,7 @@ function Header() {
 							</Link>
 
 							<Link
-								className="hover:text-lightbrown md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize md:lowercase"
+								className="hover:text-lightbrown md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit lg:col-start-1"
 								href="#"
 								onClick={() => setIsNavOpen((prev) => !prev)}
 							>
@@ -165,7 +169,7 @@ function Header() {
 							</Link>
 
 							<Link
-								className="hover:text-lightbrown  md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize md:lowercase"
+								className="hover:text-lightbrown  md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit"
 								href="/galerija"
 								onClick={() => setIsNavOpen((prev) => !prev)}
 							>
@@ -174,7 +178,7 @@ function Header() {
 
 							<Link
 								href="/kontakt"
-								className="hover:text-lightbrown  md:bg-transparent lg:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize md:lowercase"
+								className="hover:text-lightbrown  md:bg-transparent lg:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit"
 								onClick={() => setIsNavOpen((prev) => !prev)}
 							>
 								Kontakt
