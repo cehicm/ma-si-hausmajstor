@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Contact() {
 	return (
-		<div className="container my-24 mx-auto md:px-6">
+		<div className="container my-24 lg:my-12 mx-auto md:px-6">
 			<section className="mb-32">
 				<div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-contact-bg"></div>
 				<div className="container px-6 md:px-12">

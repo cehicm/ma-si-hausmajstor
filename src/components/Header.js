@@ -46,9 +46,9 @@ function Header() {
 
 				<Link href="/" className="hidden lg:block lg:mr-5">
 					<Image
-						className="w-[200px]"
+						className="w-[200px] lg:h-[80px] object-cover"
 						src={logoImage}
-						alt="MA-Si Beograd hausmajstor logo "
+						alt="MA-Si Beograd hausmajstor logo"
 					></Image>
 				</Link>
 
