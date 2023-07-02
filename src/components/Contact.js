@@ -1,10 +1,10 @@
-import React from "react";
+import Link from "next/link";
 
 export default function Contact() {
 	return (
 		<div className="container my-24 mx-auto md:px-6">
 			<section className="mb-32">
-				<div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-[url('https://mdbcdn.b-cdn.net/img/new/textures/full/284.jpg')]"></div>
+				<div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-contact-bg"></div>
 				<div className="container px-6 md:px-12">
 					<div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
 						<div className="flex flex-wrap">
@@ -20,7 +20,7 @@ export default function Contact() {
 														viewBox="0 0 24 24"
 														strokeWidth="2"
 														stroke="currentColor"
-														className="h-6 w-6"
+														className="h-6 w-6 text-white"
 													>
 														<path
 															strokeLinecap="round"
@@ -30,17 +30,15 @@ export default function Contact() {
 													</svg>
 												</div>
 											</div>
-											<div className="ml-6 grow">
+											<Link href="tel:+381607225558" className="ml-6 grow">
 												<p className="mb-2 font-bold dark:text-white">
-													Technical support
+													Hitne intervencije 24/7
 												</p>
+
 												<p className="text-neutral-500 dark:text-neutral-200">
-													support@example.com
+													+381607225558
 												</p>
-												<p className="text-neutral-500 dark:text-neutral-200">
-													+1 234-567-89
-												</p>
-											</div>
+											</Link>
 										</div>
 									</div>
 									<div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">

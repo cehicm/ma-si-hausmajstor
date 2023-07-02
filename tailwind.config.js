@@ -7,6 +7,9 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			backgroundImage: {
+				"contact-bg": "url('../../public/images/contact-bg.jpg')",
+			},
 			keyframes: {
 				peekaboo: {
 					"0%": { transform: "translateX(-100%)" },
