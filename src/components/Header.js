@@ -14,28 +14,28 @@ function Header() {
 	return (
 		<header
 			className={`flex justify-between sticky top-0 bg-lightprimary z-20 w-full px-6 lg:px-10 py-2 lg:py-4 opacity-100 ${
-				isNavOpen ? "h-screen flex-col" : "justify-between items-center"
-			} ${isClicked ? "animate-peekaboo" : ""} md:h-auto md:flex-row`}
+				isNavOpen ? "h-screen flex-col pt-6" : "justify-between items-center"
+			} ${isClicked ? "animate-peekaboo" : ""} lg:h-auto lg:flex-row`}
 		>
-			<Link href="/" className={`md:hidden ${isNavOpen ? "hidden" : ""}`}>
+			<Link href="/" className={`lg:hidden ${isNavOpen ? "hidden" : ""}`}>
 				<Image
 					src={logoImage}
 					className="cover h-20 w-20"
 					alt="MA-Si Beograd hausmajstor logo"
 				/>
 			</Link>
-			<div className="w-full max-w-7xl mx-auto flex flex-row-reverse md:flex-row gap-4 sm:items-center">
+			<div className="w-full max-w-7xl mx-auto flex flex-row-reverse lg:flex-row gap-4 sm:items-center">
 				<TfiClose
 					className={`hover:cursor-pointer h-6 w-6 ${
 						isNavOpen ? "block self-start" : "hidden"
-					} md:hidden`}
+					} lg:hidden`}
 					onClick={() => {
 						setIsNavOpen((prev) => !prev);
 						setClickedClass((prev) => !prev);
 					}}
 				/>
 				<BiMenuAltRight
-					className={`hover:cursor-pointer h-9 w-9 md:hidden ${
+					className={`hover:cursor-pointer h-9 w-9 lg:hidden ${
 						isNavOpen ? "hidden" : "block"
 					}`}
 					onClick={() => {
@@ -44,7 +44,7 @@ function Header() {
 					}}
 				/>
 
-				<Link href="/" className="hidden md:block lg:mr-5">
+				<Link href="/" className="hidden lg:block lg:mr-5">
 					<Image
 						className="w-[200px]"
 						src={logoImage}
@@ -55,17 +55,17 @@ function Header() {
 				<div
 					className={`flex flex-col-reverse md:flex-row gap-6 w-full justify-between md:items-center lg:justify-end ${
 						isNavOpen ? "items-start" : "items-end"
-					} md:items-start`}
+					} lg:items-start`}
 				>
 					<nav
 						className={`flex flex-col w-full ${
 							isNavOpen ? "block" : "hidden"
-						} md:flex md:flex-row md:justify-center lg:justify-start`}
+						} lg:flex lg:flex-row lg:justify-start`}
 					>
 						<ul
 							className={`flex flex-col w-full md:w-fit lg:w-full max-w-3xl md:m-0 text-left justify-center lg:justify-start items-start mx-auto gap-2 md:gap-8 xl:gap-16 ${
 								isNavOpen ? "block" : "hidden"
-							} md:flex md:flex-row lg:grid grid-flow-col`}
+							} lg:grid grid-flow-col`}
 						>
 							<Link
 								className={`md:hidden md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize`}
