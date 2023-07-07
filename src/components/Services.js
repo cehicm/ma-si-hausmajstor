@@ -55,7 +55,10 @@ export default function Services() {
 			<div className="relative px-4 sm:px-0">
 				<div className="absolute inset-0 bg-gray-100 h-1/2" />
 				<div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
-					<Link href="#" className="inline-block p-8 text-center">
+					<Link
+						href="vodoinstalaterske-usluge"
+						className="inline-block p-8 text-center"
+					>
 						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50 hover:invert">
 							<svg
 								className="w-8"
