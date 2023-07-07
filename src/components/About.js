@@ -25,7 +25,7 @@ export default function About() {
 					</p>
 					<Link
 						className="bg-lightbrown py-4 w-32 text-white text-center px-4 self-center "
-						href="tel:381607225558"
+						href="tel:+381607225558"
 					>
 						Pozovite
 					</Link>
