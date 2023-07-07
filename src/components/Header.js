@@ -100,7 +100,7 @@ function Header() {
 								>
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray"
-										href="#"
+										href="vodoinstalaterske-usluge"
 										onClick={() => setIsNavOpen((prev) => !prev)}
 									>
 										Vodoinstalaterske usluge
