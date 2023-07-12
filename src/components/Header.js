@@ -101,7 +101,10 @@ function Header() {
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray"
 										href="vodoinstalaterske-usluge"
-										onClick={() => setIsNavOpen((prev) => !prev)}
+										onClick={() => {
+											setIsNavOpen((prev) => !prev);
+											setClickedClass((prev) => !prev);
+										}}
 									>
 										Vodoinstalaterske usluge
 									</Link>
@@ -109,7 +112,10 @@ function Header() {
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
 										href="#"
-										onClick={() => setIsNavOpen((prev) => !prev)}
+										onClick={() => {
+											setIsNavOpen((prev) => !prev);
+											setClickedClass((prev) => !prev);
+										}}
 									>
 										Električki radovi
 									</Link>
@@ -117,7 +123,10 @@ function Header() {
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
 										href="#"
-										onClick={() => setIsNavOpen((prev) => !prev)}
+										onClick={() => {
+											setIsNavOpen((prev) => !prev);
+											setClickedClass((prev) => !prev);
+										}}
 									>
 										Gipsarski radovi
 									</Link>
@@ -131,21 +140,30 @@ function Header() {
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
 										href="#"
-										onClick={() => setIsNavOpen((prev) => !prev)}
+										onClick={() => {
+											setIsNavOpen((prev) => !prev);
+											setClickedClass((prev) => !prev);
+										}}
 									>
 										Renoviranje i adaptacija kupatila
 									</Link>
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
 										href="#"
-										onClick={() => setIsNavOpen((prev) => !prev)}
+										onClick={() => {
+											setIsNavOpen((prev) => !prev);
+											setClickedClass((prev) => !prev);
+										}}
 									>
 										Renoviranje kuhinje
 									</Link>
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
 										href="#"
-										onClick={() => setIsNavOpen((prev) => !prev)}
+										onClick={() => {
+											setIsNavOpen((prev) => !prev);
+											setClickedClass((prev) => !prev);
+										}}
 									>
 										Posebne usluge
 									</Link>
@@ -155,7 +173,10 @@ function Header() {
 							<Link
 								className="hover:text-lightbrown  md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize text-red-500 lg:w-fit"
 								href="#"
-								onClick={() => setIsNavOpen((prev) => !prev)}
+								onClick={() => {
+									setIsNavOpen((prev) => !prev);
+									setClickedClass((prev) => !prev);
+								}}
 							>
 								Hitne intervencije
 							</Link>
@@ -163,7 +184,10 @@ function Header() {
 							<Link
 								className="hover:text-lightbrown md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit lg:col-start-1"
 								href="#"
-								onClick={() => setIsNavOpen((prev) => !prev)}
+								onClick={() => {
+									setIsNavOpen((prev) => !prev);
+									setClickedClass((prev) => !prev);
+								}}
 							>
 								O nama
 							</Link>
@@ -171,7 +195,10 @@ function Header() {
 							<Link
 								className="hover:text-lightbrown  md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit"
 								href="/galerija"
-								onClick={() => setIsNavOpen((prev) => !prev)}
+								onClick={() => {
+									setIsNavOpen((prev) => !prev);
+									setClickedClass((prev) => !prev);
+								}}
 							>
 								Galerija
 							</Link>
@@ -179,7 +206,10 @@ function Header() {
 							<Link
 								href="/kontakt"
 								className="hover:text-lightbrown  md:bg-transparent lg:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit"
-								onClick={() => setIsNavOpen((prev) => !prev)}
+								onClick={() => {
+									setIsNavOpen((prev) => !prev);
+									setClickedClass((prev) => !prev);
+								}}
 							>
 								Kontakt
 							</Link>
