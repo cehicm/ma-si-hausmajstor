@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ServicePageHero({ title, text }) {
 	return (
 		<div className="absolute bg-blend-multiply z-10 top-0 mt-0 md:mt-12t translate-y-[5%] md:translate-y-[20%] md:w-3/4 max-w-4xl mx-auto">
-			<div className="px-4 mt-12 mx-auto max-w-screen-xl text-center">
+			<div className="px-4 translate-y-1/2 mx-auto max-w-screen-xl text-center h-fit-content">
 				<div className="bg-black/50 p-5 pb-2">
 					<h1 className="mb-4 text-2xl md:text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
 						{title}
