@@ -17,35 +17,37 @@ export default function vodoinstalaterskeUsluge() {
 				</div>
 				<ServicePageHero
 					title="Vodoinstalaterske usluge u Beogradu"
-					text="Potrebno Vam je da očištite nameštaj, a ne želite da rizikujete oštećenja? Desila se nezgoda koju želite da uklonite iz nameštaja?"
+					text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+					aspernatur deleniti accusantium ad at animi sapiente voluptatibus
+					labore, ratione tempora."
 				/>
 			</div>
 
-			<div className="py-6 px-10">
-				<div className="max-w-3xl mx-auto">
+			<div className="py-6">
+				<div className="max-w-3xl mx-auto px-10">
 					<p>
-						Želite da nameštaju vratite originalni sjaj, i da izgleda novo i
-						nakon više godina korišćenja?
-						<span className="block font-semibold">
-							Ozon tepih servis Kruševac je tu za Vas!
-						</span>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+						aspernatur deleniti accusantium ad at animi sapiente voluptatibus
+						labore, ratione tempora.
+					</p>
+					<p className="block font-semibold mt-5">
+						Ozon tepih servis Kruševac je tu za Vas!
 					</p>
 				</div>
 
-				<div className="bg-blue-200 my-7 lg:max-w-3xl mx-auto">
-					<h3 className="p-4 text-3xl">
-						Pozovite nas i zakažite na
+				<div className="bg-dirtygray text-white my-7 lg:max-w-3xl mx-auto">
+					<h3 className="p-4 text-2xl lg:text-3xl px-10 text-center">
+						Pozovite nas i zakažite na{" "}
 						<span>
-							<Link className="hover:underline" href="tel:+381607225558">
-								{" "}
+							<Link className="underline" href="tel:+381607225558">
 								060/722-5558
 							</Link>
 						</span>
 					</h3>
 				</div>
 
-				<div className="max-w-3xl mx-auto">
-					<h2 className="text-xl pt-2 pb-3">Ova usluga se sastoji od:</h2>
+				<div className="max-w-3xl mx-auto px-10">
+					<h2 className="text-xl pt-2 pb-5">Ova usluga se sastoji od:</h2>
 					<ul
 						id="cleaning-description"
 						className="flex flex-col gap-5 list-disc"
