@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
 import bathroomImg from "../../public/images/bathroomvertical.jpg";
 import dropCieling from "../../public/images/drop-cieling.jpg";
 import spaceHorizontal from "../../public/images/space-horizontal.jpg";
@@ -31,21 +33,36 @@ export default function About() {
 					</Link>
 				</div>
 			</div>
-			<Image
-				className="w-full h-full object-cover p-4"
-				src={bathroomImg}
-				alt="bathroom image"
-			/>
-			<Image
-				className="w-full h-full object-cover p-4"
-				src={dropCieling}
-				alt="drop cieling image"
-			/>
-			<Image
-				className="w-full h-full object-cover p-4"
-				src={spaceHorizontal}
-				alt="space horizontal image"
-			/>
+			<motion.div
+				whileHover={{ scale: [null, 1.2, 1.1] }}
+				transition={{ duration: 0.3 }}
+			>
+				<Image
+					className="w-full h-full object-cover p-4"
+					src={bathroomImg}
+					alt="bathroom image"
+				/>
+			</motion.div>
+			<motion.div
+				whileHover={{ scale: [null, 1.2, 1.1] }}
+				transition={{ duration: 0.3 }}
+			>
+				<Image
+					className="w-full h-full object-cover p-4"
+					src={dropCieling}
+					alt="drop cieling image"
+				/>
+			</motion.div>
+			<motion.div
+				whileHover={{ scale: [null, 1.2, 1.1] }}
+				transition={{ duration: 0.3 }}
+			>
+				<Image
+					className="w-full h-full object-cover p-4"
+					src={spaceHorizontal}
+					alt="space horizontal image"
+				/>
+			</motion.div>
 		</section>
 	);
 }
