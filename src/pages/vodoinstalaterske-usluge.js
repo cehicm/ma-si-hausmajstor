@@ -2,7 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import ServicePageHero from "@/components/servicepage/ServicePageHero";
 import ServicePageShortDesc from "@/components/servicepage/ServicePageShortDesc";
+import ServiceGallery from "@/components/servicepage/ServiceGallery";
 import heroImg from "../../public/images/hero-img.jpg";
+import CTA from "@/components/CTA";
 
 export default function vodoinstalaterskeUsluge() {
 	return (
@@ -12,7 +14,7 @@ export default function vodoinstalaterskeUsluge() {
 					<Image
 						src={heroImg}
 						alt="placeholder image"
-						className="w-full h-[500px] md:h-[700px] lg:h-[600px] object-cover"
+						className="w-full h-[500px] md:h-[700px] object-cover"
 					/>
 				</div>
 				<ServicePageHero
@@ -35,8 +37,8 @@ export default function vodoinstalaterskeUsluge() {
 					</p>
 				</div>
 
-				<div className="bg-dirtygray text-white my-7 lg:max-w-3xl mx-auto">
-					<h3 className="p-4 text-2xl lg:text-3xl px-10 text-center">
+				<div className="bg-lightbrown text-white my-7">
+					<h3 className="p-4 text-2xl lg:text-3xl px-10 py-8 text-center lg:max-w-3xl mx-auto">
 						Pozovite nas i zakažite na{" "}
 						<span>
 							<Link className="underline" href="tel:+381607225558">
@@ -69,7 +71,8 @@ export default function vodoinstalaterskeUsluge() {
 				</div>
 			</div>
 
-			<div className="grid gap-4 md:grid-cols-2 mt-5"></div>
+			<CTA />
+			<ServiceGallery />
 		</section>
 	);
 }
