@@ -85,7 +85,7 @@ function Header() {
 									Usluge
 								</Link>
 								<BiChevronDown
-									className={`inline md:hidden w-6 h-6 hover:cursor-pointer ${
+									className={`inline md:hidden w-6 h-6 hover:cursor-pointer ml-3 ${
 										isSubMenuOpen ? "rotate-180" : ""
 									}`}
 									onClick={() => setIsSubMenuOpen((prev) => !prev)}
@@ -201,6 +201,17 @@ function Header() {
 								}}
 							>
 								Galerija
+							</Link>
+
+							<Link
+								href="/Ccnovnik"
+								className="hover:text-lightbrown  md:bg-transparent lg:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit"
+								onClick={() => {
+									setIsNavOpen((prev) => !prev);
+									setClickedClass((prev) => !prev);
+								}}
+							>
+								Cenovnik
 							</Link>
 
 							<Link
