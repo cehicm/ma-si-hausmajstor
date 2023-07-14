@@ -10,3 +10,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Favicon, logo
 - Hero component
 - React icons package
+- Framer Motion
+- Service main page & components
