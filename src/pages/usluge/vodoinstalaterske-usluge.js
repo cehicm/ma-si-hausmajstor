@@ -3,7 +3,7 @@ import Link from "next/link";
 import ServicePageHero from "@/components/servicepage/ServicePageHero";
 import ServicePageShortDesc from "@/components/servicepage/ServicePageShortDesc";
 import ServiceGallery from "@/components/servicepage/ServiceGallery";
-import heroImg from "../../public/images/hero-img.jpg";
+import heroImg from "../../../public/images/hero-img.jpg";
 import CTA from "@/components/CTA";
 
 export default function vodoinstalaterskeUsluge() {
@@ -33,7 +33,7 @@ export default function vodoinstalaterskeUsluge() {
 						labore, ratione tempora.
 					</p>
 					<p className="block font-semibold mt-5">
-						Ozon tepih servis Kruševac je tu za Vas!
+						MA-SI hausmajstor Beograd je tu za Vas!
 					</p>
 				</div>
 
