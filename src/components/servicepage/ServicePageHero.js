@@ -1,10 +1,21 @@
 import Link from "next/link";
+import { VscArrowLeft } from "react-icons/vsc";
 
 export default function ServicePageHero({ title, text }) {
 	return (
-		<div className="absolute bg-blend-multiply z-10 top-0 mt-0 md:mt-12t translate-y-[5%] md:translate-y-[20%] md:w-3/4 max-w-4xl mx-auto">
-			<div className="px-4 translate-y-1/2 mx-auto max-w-screen-xl text-center h-fit-content">
-				<div className="bg-black/50 p-5 pb-2">
+		<>
+			<div className="absolute w-full bg-white text-lightbrown hover:text-black drop-shadow-2xl flex items-center pl-4 ">
+				<VscArrowLeft className="hover:fill-black" />
+				<Link
+					href="/usluge"
+					className="inline-flex justify-center items-center py-3 pl-2 text-base font-medium text-center "
+				>
+					Nazad na sve usluge
+				</Link>
+			</div>
+
+			<div className="absolute bg-blend-multiply z-10 top-0 translate-y-[40%] md:translate-y-1/2">
+				<div className="bg-black/50 p-5 pb-2 mx-6 md:mx-auto md:w-3/4">
 					<h1 className="mb-4 text-2xl md:text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
 						{title}
 					</h1>
@@ -13,10 +24,10 @@ export default function ServicePageHero({ title, text }) {
 					</p>
 				</div>
 
-				<div className="flex flex-row gap-8 justify-evenly mt-4 sm:flex-row sm:justify-center sm:space-x-4">
+				<div className="flex flex-col items-center md:flex-row gap-4 md:gap-8 justify-evenly mt-4 sm:flex-row sm:justify-center sm:space-x-4 mx-auto w-3/4">
 					<Link
 						href="tel:+381607225558"
-						className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 md:w-48 w-[40%]"
+						className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 border border-blue-800 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 w-full md:w-48"
 					>
 						Naručite uslugu
 						<svg
@@ -33,14 +44,8 @@ export default function ServicePageHero({ title, text }) {
 							></path>
 						</svg>
 					</Link>
-					<Link
-						href="/usluge"
-						className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 md:w-48 w-[40%]"
-					>
-						Sve usluge
-					</Link>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
