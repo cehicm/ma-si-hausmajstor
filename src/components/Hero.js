@@ -39,14 +39,14 @@ export default function Hero() {
 						<div className="flex items-center">
 							<Link
 								href="/"
-								className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-lightbrown hover:bg-white hover:text-lightbrown focus:shadow-outline focus:outline-none"
+								className="inline-flex items-center justify-center h-16 text-center px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-lightbrown hover:bg-white hover:text-lightbrown focus:shadow-outline focus:outline-none"
 							>
 								Ideje za preuređenje
 							</Link>
 							<Link
 								href="/"
 								aria-label=""
-								className="inline-flex items-center font-semibold text-lightbrown transition-colors duration-200 hover:bg-lightbrown hover:text-white border border-lightbrown h-12 py-2 px-12 rounded"
+								className="inline-flex items-center font-semibold h-16 text-lightbrown transition-colors duration-200 hover:bg-lightbrown hover:text-white border border-lightbrown h-12 py-2 px-12 rounded"
 							>
 								Kontakt
 							</Link>
