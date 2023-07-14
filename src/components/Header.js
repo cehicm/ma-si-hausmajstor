@@ -15,7 +15,9 @@ function Header() {
 		<header
 			className={`flex justify-between sticky top-0 bg-lightprimary z-20 w-full px-6 lg:px-10 py-2 lg:py-4 opacity-100 ${
 				isNavOpen ? "h-screen flex-col pt-6" : "justify-between items-center"
-			} ${isClicked ? "animate-peekaboo" : ""} lg:h-auto lg:flex-row`}
+			} ${
+				isClicked ? "animate-peekaboo" : ""
+			} lg:animate-none lg:h-auto lg:flex-row`}
 		>
 			<Link href="/" className={`lg:hidden ${isNavOpen ? "hidden" : ""}`}>
 				<Image
@@ -94,13 +96,13 @@ function Header() {
 								<ul
 									onMouseEnter={() => setHover((prev) => !prev)}
 									onMouseLeave={() => setHover((prev) => !prev)}
-									className={`ml-4 md:ml-0 my-1 md:my-0 drop-shadow-2xl md:absolute text-sm flex flex-col gap-2 w-full md:w-[200px] lg:top-12  ${
+									className={`ml-4 md:ml-0 my-1 md:my-0 drop-shadow-2xl md:absolute text-sm flex flex-col gap-2 w-full md:w-[200px] lg:top-26  ${
 										isItemHovered ? "md:flex md:bg-white" : "md:hidden"
 									} ${isSubMenuOpen ? "block" : "hidden"}`}
 								>
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray"
-										href="vodoinstalaterske-usluge"
+										href="/usluge/vodoinstalaterske-usluge"
 										onClick={() => {
 											setIsNavOpen((prev) => !prev);
 											setClickedClass((prev) => !prev);
@@ -159,7 +161,7 @@ function Header() {
 									</Link>
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
-										href="#"
+										href="/usluge/posebne-usluge"
 										onClick={() => {
 											setIsNavOpen((prev) => !prev);
 											setClickedClass((prev) => !prev);
