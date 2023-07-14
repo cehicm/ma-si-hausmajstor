@@ -3,7 +3,7 @@ import Link from "next/link";
 import ServicePageHero from "@/components/servicepage/ServicePageHero";
 import ServicePageShortDesc from "@/components/servicepage/ServicePageShortDesc";
 import ServiceGallery from "@/components/servicepage/ServiceGallery";
-import heroImg from "../../../public/images/hero-img.jpg";
+import heroImg from "../../../public/images/vodoinstalaterske-hero.jpg";
 import CTA from "@/components/CTA";
 
 export default function vodoinstalaterskeUsluge() {
