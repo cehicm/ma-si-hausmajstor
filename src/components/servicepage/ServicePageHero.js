@@ -4,7 +4,7 @@ import { VscArrowLeft } from "react-icons/vsc";
 export default function ServicePageHero({ title, text }) {
 	return (
 		<>
-			<div className="absolute w-full bg-white text-lightbrown hover:text-black drop-shadow-2xl flex items-center pl-4 ">
+			<div className="absolute w-full bg-white text-lightbrown hover:text-black drop-shadow-2xl flex items-center pl-4">
 				<VscArrowLeft className="hover:fill-black" />
 				<Link
 					href="/usluge"
@@ -14,8 +14,8 @@ export default function ServicePageHero({ title, text }) {
 				</Link>
 			</div>
 
-			<div className="absolute bg-blend-multiply z-10 top-0 translate-y-[40%] md:translate-y-1/2">
-				<div className="bg-black/50 p-5 pb-2 mx-6 md:mx-auto md:w-3/4">
+			<div className="absolute bg-blend-multiply z-10 top-0 translate-y-[40%] text-center lg:max-w-[80%]">
+				<div className="bg-black/50 p-5 lg:p-10 mx-6 md:mx-auto md:w-3/4">
 					<h1 className="mb-4 text-2xl md:text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
 						{title}
 					</h1>
