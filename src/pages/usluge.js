@@ -10,15 +10,15 @@ import CTA from "@/components/CTA";
 export default function usluge() {
 	return (
 		<>
-			<div className="relative">
+			<div className="relative bg-black">
 				<Image
 					src={heroImg}
 					className="absolute inset-0 object-cover w-full h-full"
 					alt=""
 				/>
-				<div className="relative bg-opacity-75 bg-deep-purple-accent-700">
+				<div className="relative bg-opacity-50 bg-lightbrown">
 					<svg
-						className="absolute inset-x-0 bottom-0 text-white"
+						className="absolute inset-x-0 -bottom-1 text-[#ebedee]"
 						viewBox="0 0 1160 163"
 					>
 						<path
