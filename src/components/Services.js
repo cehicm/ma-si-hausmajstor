@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import columnImage from "../../public/images/column.svg";
-import brushImage from "../../public/images/brush.svg";
-import kitchenImage from "../../public/images/kitchen-icon.svg";
-import tilesImage from "../../public/images/tiles.png";
+import columnImage from "../../public/images/icons/column.svg";
+import brushImage from "../../public/images/icons/brush.svg";
+import kitchenImage from "../../public/images/icons/kitchen-icon.svg";
+import tilesImage from "../../public/images/icons/tiles.png";
 
 export default function Services() {
 	return (

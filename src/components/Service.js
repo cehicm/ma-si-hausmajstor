@@ -1,16 +1,21 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import ButtonBrown from "./buttons/ButtonBrown";
+
 export default function Service({ title, text, url, icon }) {
 	return (
-		<Link href={url}>
-			<div className="max-w-4xl px-8 py-8">
-				<div className="flex items-center gap-3">
-					<h3 className="text-3xl">{title}</h3>
-					<Image src={icon} className="w-12 h-7" />
+		<div className="flex flex-col items-start py-12 pb-16 border border-b-lightbrown border-2 border-opacity-60 max-w-4xl px-8 gap-8">
+			<Link href={url}>
+				<div>
+					<div className="flex items-center gap-3">
+						<h3 className="text-3xl">{title}</h3>
+						<Image src={icon} className="w-12 h-12" alt={title} />
+					</div>
+					<p className="pt-6">{text}</p>
 				</div>
-				<p className="pt-6">{text}</p>
-			</div>
-		</Link>
+			</Link>
+			<ButtonBrown className="self-start" text="O usluzi" url={url} />
+		</div>
 	);
 }
