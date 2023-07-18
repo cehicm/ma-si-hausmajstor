@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import logoImage from "../../public/images/hero-img.jpg";
 
+import ButtonBrown from "./buttons/ButtonBrown";
+import ButtonWhite from "./buttons/ButtonWhite";
+
 export default function Hero() {
 	return (
 		<section>
@@ -36,20 +39,10 @@ export default function Hero() {
 							hitna popravka, renoviranje prostora ili jednostavno želite
 							osvežiti izgled vašeg doma, mi smo tu da vam pomognemo.
 						</p>
-						<div className="flex items-center">
-							<Link
-								href="/"
-								className="inline-flex items-center justify-center h-16 text-center px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-lightbrown hover:bg-white hover:text-lightbrown focus:shadow-outline focus:outline-none"
-							>
-								Ideje za preuređenje
-							</Link>
-							<Link
-								href="/"
-								aria-label=""
-								className="inline-flex items-center font-semibold h-16 text-lightbrown transition-colors duration-200 hover:bg-lightbrown hover:text-white border border-lightbrown h-12 py-2 px-12 rounded"
-							>
-								Kontakt
-							</Link>
+						<div className="flex gap-4 md:flex-row  items-center">
+							<ButtonBrown text="Ideje za preuređenje" url="#" />
+
+							<ButtonWhite url="/kontakt" text="Kontakt" />
 						</div>
 					</div>
 				</div>

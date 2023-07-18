@@ -1,6 +1,7 @@
-import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+
+import ButtonBrown from "./buttons/ButtonBrown";
 
 import bathroomImg from "../../public/images/bathroomvertical.jpg";
 import dropCieling from "../../public/images/drop-cieling.jpg";
@@ -10,7 +11,7 @@ export default function About() {
 	return (
 		<section className="mx-6 md:mx-12 lg:grid grid-cols-2 lg:mb-8">
 			<div className="row-start-2 px-4 py-8 my-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 border border-black">
-				<div className="flex flex-col max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl gap-6">
+				<div className="flex flex-col max-w-xl my-8 md:mx-auto sm:text-center lg:max-w-2xl gap-6">
 					<h3 className="text-2xl">O nama</h3>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ab
@@ -25,12 +26,10 @@ export default function About() {
 						expedita minima. Dolorum nam vero ea corrupti maiores temporibus
 						explicabo exercitationem at error?
 					</p>
-					<Link
-						className="bg-lightbrown py-4 w-32 text-white text-center px-4 self-center "
-						href="tel:+381607225558"
-					>
-						Pozovite
-					</Link>
+
+					<div className="w-48 self-center mt-4">
+						<ButtonBrown url="tel:+381607225558" text="Pozovite" />
+					</div>
 				</div>
 			</div>
 			<motion.div
