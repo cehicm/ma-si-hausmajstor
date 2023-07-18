@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
 				/>
 			</Head>
 			<Header />
-			<main className={inter.className}>
+			<main className={`${inter.className} bg-slate-50`}>
 				<Component {...pageProps} />
 			</main>
 		</>
