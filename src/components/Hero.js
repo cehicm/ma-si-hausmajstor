@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import logoImage from "../../public/images/hero-img.jpg";
 
 import ButtonBrown from "./buttons/ButtonBrown";
@@ -33,12 +32,21 @@ export default function Hero() {
 							{" "}
 							MA-SI hausmajstor{" "}
 						</h1>
-						<p className="pr-5 mb-8 text-base text-gray-700 md:text-lg">
-							Sa dugogodišnjim iskustvom i strastvenim pristupom, posvećeni smo
-							pružanju izvanrednih rezultata. Bez obzira da li vam je potrebna
-							hitna popravka, renoviranje prostora ili jednostavno želite
-							osvežiti izgled vašeg doma, mi smo tu da vam pomognemo.
-						</p>
+
+						<div className="pr-5 mb-3 text-base text-gray-700 md:text-lg max-w-2xl text-justify">
+							<p className="mb-4">
+								Sa dugogodišnjim iskustvom i profesionalnim pristupom, trudimo
+								se da svojim klijentima omogućimo širok spektar usluga &mdash;
+								po pristupačnim cenama.
+							</p>
+
+							<p className="mb-9">
+								Bez obzira da li vam je potrebna hitna popravka, renoviranje
+								prostora ili jednostavno želite osvežiti izgled vašeg doma, tu
+								smo da vam pomognemo!
+							</p>
+						</div>
+
 						<div className="flex gap-4 md:flex-row  items-center">
 							<ButtonBrown text="Ideje za preuređenje" url="#" />
 
