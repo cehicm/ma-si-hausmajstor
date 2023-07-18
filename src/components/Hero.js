@@ -5,8 +5,8 @@ import logoImage from "../../public/images/hero-img.jpg";
 export default function Hero() {
 	return (
 		<section>
-			<div className="relative flex flex-col-reverse py-16 px-6 lg:pt-0 lg:flex-col lg:pb-0">
-				<div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
+			<div className="relative flex flex-col-reverse py-16 px-8 md:px-12 lg:pt-0 lg:flex-col lg:pb-0">
+				<div className="inset-y-0 top-0 right-0 z-0 w-full mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
 					<svg
 						className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
 						viewBox="0 0 100 100"
@@ -21,7 +21,7 @@ export default function Hero() {
 						alt="Logo Marko Sindjelic MA-SI hausmajstor usluge Beograd"
 					/>
 				</div>
-				<div className="relative flex flex-col items-start w-full max-w-xl mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
+				<div className="relative flex flex-col items-start w-full x-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
 					<div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
 						<p className="inline-block py-3 px-4 mb-3 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-400">
 							Vaša zamisao je naša misija
