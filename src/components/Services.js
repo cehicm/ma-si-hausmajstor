@@ -57,9 +57,9 @@ export default function Services() {
 				<div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-x mx-7 md:mx-auto sm:grid-cols-3 lg:max-w-screen-md">
 					<Link
 						href="/usluge/vodoinstalaterske-usluge"
-						className="inline-block p-8 text-center"
+						className="inline-block p-8 text-center text-gray-800 hover:text-white hover:bg-gray-800 font-bold tracking-wide"
 					>
-						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50 hover:invert">
+						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
 							<svg
 								className="w-8"
 								xmlns="http://www.w3.org/2000/svg"
@@ -77,20 +77,21 @@ export default function Services() {
 								/>
 							</svg>
 						</div>
-						<p className="font-bold tracking-wide text-gray-800">
-							Vodoinstalaterske usluge
-						</p>
+						<p>Vodoinstalaterske usluge</p>
 					</Link>
 
-					<Link href="#" className="inline-block p-8 text-center">
-						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50 hover:invert">
+					<Link
+						href="#"
+						className="inline-block p-8 text-center text-gray-800 hover:text-white hover:bg-gray-800 font-bold tracking-wide"
+					>
+						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
 							<svg
-								className="w-10 h-10 text-deep-purple-accent-400"
-								stroke="currentColor"
+								className="w-10 h-10 hover:text-black"
+								stroke="#2f2f2f"
 								viewBox="0 0 52 52"
 							>
 								<polygon
-									strokeWidth="3"
+									strokeWidth="1.5"
 									strokeLinecap="round"
 									strokeLinejoin="round"
 									fill="none"
@@ -98,42 +99,44 @@ export default function Services() {
 								/>
 							</svg>
 						</div>
-						<p className="font-bold tracking-wide text-gray-800">
-							Električarski radovi
-						</p>
+						<p>Električarski radovi</p>
 					</Link>
-					<Link href="#" className="inline-block p-8 text-center">
-						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50 hover:invert">
+					<Link
+						href="#"
+						className="inline-block p-8 text-center text-gray-800 hover:text-white hover:bg-gray-800 font-bold tracking-wide"
+					>
+						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
 							<Image className="w-8" src={columnImage} alt="column icon" />
 						</div>
-						<p className="font-bold tracking-wide text-gray-800">
-							Gipsarski radovi
-						</p>
+						<p>Gipsarski radovi</p>
 					</Link>
 
-					<Link href="#" className="inline-block p-8 text-center">
-						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50 hover:invert">
+					<Link
+						href="#"
+						className="inline-block p-8 text-center text-gray-800 hover:text-white hover:bg-gray-800 font-bold tracking-wide"
+					>
+						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
 							<Image className="w-8" src={brushImage} alt="brush icon" />
 						</div>
-						<p className="font-bold tracking-wide text-gray-800">
-							Molerski radovi
-						</p>
+						<p className="font-bold tracking-wide0">Molerski radovi</p>
 					</Link>
-					<Link href="#" className="inline-block p-8 text-center">
-						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50 hover:invert">
+					<Link
+						href="#"
+						className="inline-block p-8 text-center text-gray-800 hover:text-white hover:bg-gray-800 font-bold tracking-wide"
+					>
+						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
 							<Image className="w-8" src={tilesImage} alt="tiles icon" />
 						</div>
-						<p className="font-bold tracking-wide text-gray-800">
-							Renoviranje i adaptacija kupatila
-						</p>
+						<p>Renoviranje i adaptacija kupatila</p>
 					</Link>
-					<Link href="#" className="inline-block p-8 text-center">
-						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50 hover:invert">
+					<Link
+						href="#"
+						className="inline-block p-8 text-center hover:text-white hover:bg-gray-800 font-bold tracking-wide"
+					>
+						<div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
 							<Image className="w-8" src={kitchenImage} alt="kitchen icon" />
 						</div>
-						<p className="font-bold tracking-wide text-gray-800">
-							Renoviranje kuhinje
-						</p>
+						<p className="">Renoviranje kuhinje</p>
 					</Link>
 				</div>
 			</div>
