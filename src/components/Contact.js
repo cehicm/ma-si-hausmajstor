@@ -5,7 +5,7 @@ export default function Contact() {
 		<section className="m-6 md:m-0 mx-auto">
 			<div className="mb-10 lg:mb-32">
 				<div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-contact-bg"></div>
-				<div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] mx-6 max-w-lg md:max-w-2xl lg:max-w-5xl md:mx-auto">
+				<div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] mx-6 max-w-lg md:max-w-2xl lg:max-w-4xl md:mx-auto">
 					<div className="grid md:grid-cols-2 gap-10 md:gap-6 max-w-3xl mx-auto">
 						<div className="flex items-start">
 							<div className="rounded-md bg-primary-100 p-4 md:pt-0 text-primary">
