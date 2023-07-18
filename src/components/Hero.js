@@ -48,7 +48,7 @@ export default function Hero() {
 						</div>
 
 						<div className="flex gap-4 md:flex-row  items-center">
-							<ButtonBrown text="Ideje za preuređenje" url="#" />
+							<ButtonBrown text="Ideje za preuređivanje" url="#" />
 
 							<ButtonWhite url="/kontakt" text="Kontakt" />
 						</div>
