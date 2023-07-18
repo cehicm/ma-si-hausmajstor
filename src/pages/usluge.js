@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import heroImg from "../../public/images/usluge-hero.jpg";
 import waterIcon from "../../public/images/icons/water-icon.svg";
+import thunderIcon from "../../public/images/icons/thunder.svg";
 
 import Service from "@/components/Service";
 import CTA from "@/components/CTA";
@@ -18,7 +19,7 @@ export default function usluge() {
 				/>
 				<div className="relative bg-opacity-50 bg-lightbrown">
 					<svg
-						className="absolute inset-x-0 -bottom-1 text-[#ebedee]"
+						className="absolute inset-x-0 -bottom-1 text-slate-50"
 						viewBox="0 0 1160 163"
 					>
 						<path
@@ -63,12 +64,19 @@ export default function usluge() {
 				</div>
 			</div>
 
-			<div>
+			<div className="grid lg:grid-cols-2 mt-12">
 				<Service
 					title="Vodoinstalaterske usluge"
 					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
 					url="usluge/vodoinstalaterske-usluge"
 					icon={waterIcon}
+				/>
+
+				<Service
+					title="Električarske usluge"
+					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					url="usluge/vodoinstalaterske-usluge"
+					icon={thunderIcon}
 				/>
 			</div>
 
