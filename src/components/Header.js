@@ -113,18 +113,18 @@ function Header() {
 
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
-										href="#"
+										href="/usluge/elektricarski-radovi"
 										onClick={() => {
 											setIsNavOpen((prev) => !prev);
 											setClickedClass((prev) => !prev);
 										}}
 									>
-										Električki radovi
+										Električkarski radovi
 									</Link>
 
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
-										href="#"
+										href="/usluge/gipsarski-radovi"
 										onClick={() => {
 											setIsNavOpen((prev) => !prev);
 											setClickedClass((prev) => !prev);
@@ -134,14 +134,14 @@ function Header() {
 									</Link>
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
-										href="#"
+										href="/usluge/molerski-radovi"
 										onClick={() => setIsNavOpen((prev) => !prev)}
 									>
 										Molerski radovi
 									</Link>
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
-										href="#"
+										href="/usluge/molerski-radovi"
 										onClick={() => {
 											setIsNavOpen((prev) => !prev);
 											setClickedClass((prev) => !prev);
@@ -151,7 +151,7 @@ function Header() {
 									</Link>
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
-										href="#"
+										href="/usluge/renoviranje-kuhinje"
 										onClick={() => {
 											setIsNavOpen((prev) => !prev);
 											setClickedClass((prev) => !prev);
@@ -174,7 +174,7 @@ function Header() {
 
 							<Link
 								className="hover:text-lightbrown  md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize text-red-500 lg:w-fit"
-								href="#"
+								href="/usluge/hitne-intervencije"
 								onClick={() => {
 									setIsNavOpen((prev) => !prev);
 									setClickedClass((prev) => !prev);
@@ -185,7 +185,7 @@ function Header() {
 
 							<Link
 								className="hover:text-lightbrown md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit lg:col-start-1"
-								href="#"
+								href="/o-nama"
 								onClick={() => {
 									setIsNavOpen((prev) => !prev);
 									setClickedClass((prev) => !prev);
@@ -206,7 +206,7 @@ function Header() {
 							</Link>
 
 							<Link
-								href="/Ccnovnik"
+								href="/cenovnik"
 								className="hover:text-lightbrown  md:bg-transparent lg:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit"
 								onClick={() => {
 									setIsNavOpen((prev) => !prev);
