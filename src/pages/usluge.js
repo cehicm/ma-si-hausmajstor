@@ -8,7 +8,6 @@ import columnImage from "../../public/images/icons/column.svg";
 import brushImage from "../../public/images/icons/brush.svg";
 import kitchenImage from "../../public/images/icons/kitchen-icon.svg";
 import tilesImage from "../../public/images/icons/tiles.png";
-import contactBg from "../../public/images/contact-bg.jpg";
 
 import Service from "@/components/Service";
 import CTA from "@/components/CTA";
