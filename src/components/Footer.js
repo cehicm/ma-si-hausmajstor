@@ -25,7 +25,7 @@ export default function Footer() {
 					<div>
 						<Link
 							href="/usluge"
-							className="mb-4 flex justify-center font-semibold uppercase md:justify-start"
+							className="md:pl-2 mb-4 flex justify-center font-semibold uppercase md:justify-start"
 						>
 							Usluge
 						</Link>
@@ -52,7 +52,7 @@ export default function Footer() {
 						</ul>
 					</div>
 					<div>
-						<h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+						<h6 className="md:pl-2 mb-4 flex justify-center font-semibold uppercase md:justify-start">
 							Korisni linkovi
 						</h6>
 
@@ -78,7 +78,7 @@ export default function Footer() {
 						</ul>
 					</div>
 					<div>
-						<h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+						<h6 className="md:pl-2 mb-4 flex justify-center font-semibold uppercase md:justify-start">
 							Kontakt
 						</h6>
 
