@@ -71,7 +71,7 @@ export default function vodoinstalaterskeUsluge() {
 				</div>
 			</div>
 
-			<CTA />
+			<CTA text="VAŠA ZAMISAO JE NAŠA MISIJA!" />
 			<ServiceGallery />
 		</section>
 	);
