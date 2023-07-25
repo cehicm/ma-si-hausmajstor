@@ -4,6 +4,10 @@ import Image from "next/image";
 import heroImg from "../../public/images/usluge-hero.jpg";
 import waterIcon from "../../public/images/icons/water-icon.svg";
 import thunderIcon from "../../public/images/icons/thunder.svg";
+import columnImage from "../../public/images/icons/column.svg";
+import brushImage from "../../public/images/icons/brush.svg";
+import kitchenImage from "../../public/images/icons/kitchen-icon.svg";
+import tilesImage from "../../public/images/icons/tiles.png";
 
 import Service from "@/components/Service";
 import CTA from "@/components/CTA";
@@ -64,23 +68,57 @@ export default function usluge() {
 				</div>
 			</div>
 
-			<div className="grid lg:grid-cols-2 mt-12">
+			<div className="grid grid-cols-1 lg:grid-cols-2 mt-12">
 				<Service
 					title="Vodoinstalaterske usluge"
 					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
-					url="usluge/vodoinstalaterske-usluge"
+					url="/usluge/vodoinstalaterske-usluge"
 					icon={waterIcon}
 				/>
 
 				<Service
 					title="Električarske usluge"
 					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
-					url="usluge/vodoinstalaterske-usluge"
+					url="/usluge/elektricarske-usluge"
 					icon={thunderIcon}
 				/>
-			</div>
 
-			<CTA />
+				<Service
+					title="Gipsarske usluge"
+					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					url="/usluge/gipsarske-usluge"
+					icon={columnImage}
+				/>
+
+				<Service
+					title="Molerski radovi"
+					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					url="/usluge/molerski-radovi"
+					icon={brushImage}
+				/>
+
+				<div className="lg:col-span-2">
+					<CTA text="VAŠA ZAMISAO JE NAŠA MISIJA!" />
+				</div>
+
+				<Service
+					title="Renoviranje i adaptacija kupatila"
+					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					url="/usluge/adaptacija-kupatila"
+					icon={tilesImage}
+				/>
+
+				<Service
+					title="Renoviranje kuhinje"
+					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					url="/usluge/renovacije"
+					icon={kitchenImage}
+				/>
+
+				<div className="lg:col-span-2">
+					<CTA text="Pozovite nas na 060 722 5558" url="tel:+381607225558" />
+				</div>
+			</div>
 		</>
 	);
 }
