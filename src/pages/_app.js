@@ -1,9 +1,10 @@
 import "@/styles/globals.css";
+import { Inter } from "next/font/google";
+const inter = Inter({ subsets: ["latin"] });
 
 import Head from "next/head";
 import Header from "@/components/Header";
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/components/Footer";
 
 export default function App({ Component, pageProps }) {
 	return (
@@ -20,6 +21,7 @@ export default function App({ Component, pageProps }) {
 			<main className={`${inter.className} bg-slate-50`}>
 				<Component {...pageProps} />
 			</main>
+			<Footer />
 		</>
 	);
 }
