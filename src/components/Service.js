@@ -9,7 +9,7 @@ export default function Service({ title, text, url, icon }) {
 			<Link href={url} className="relative">
 				<Image
 					src={icon}
-					className="w-full h-full absolute opacity-10"
+					className="w-full h-full absolute opacity-10 object-contain"
 					alt={title}
 				/>
 
