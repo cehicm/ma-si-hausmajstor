@@ -11,7 +11,7 @@ export default function Home() {
 				<Hero />
 				<Services />
 				<About />
-				<CTA />
+				<CTA text="VAŠA ZAMISAO JE NAŠA MISIJA!" />
 				<Contact />
 			</main>
 		</>
