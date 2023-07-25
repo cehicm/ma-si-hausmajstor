@@ -99,7 +99,7 @@ export default function usluge() {
 				/>
 
 				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-red-100 lg:mb-10">
-					<div className="flex flex-col items-start py-12 pb-16 border border-b-lightbrown border-2 border-opacity-60 max-w-4xl px-8 gap-8">
+					<div className="flex flex-col items-start py-12 max-w-4xl px-8 gap-8">
 						<Link href="/usluge/hitne-intervencije" className="relative">
 							<div>
 								<div className="flex items-center gap-3">
@@ -143,7 +143,7 @@ export default function usluge() {
 			</div>
 
 			<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-orange-300/40 mb-10">
-				<div className="flex flex-col items-start py-12 pb-16 border border-b-lightbrown border-2 border-opacity-60 max-w-4xl px-8 gap-8">
+				<div className="flex flex-col items-start py-12 pb-16 max-w-4xl px-8 gap-8">
 					<Link href="/usluge/posebne-usluge" className="relative">
 						<div>
 							<div className="flex items-center gap-3">
