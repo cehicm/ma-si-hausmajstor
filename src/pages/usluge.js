@@ -11,6 +11,7 @@ import tilesImage from "../../public/images/icons/tiles.png";
 
 import Service from "@/components/Service";
 import CTA from "@/components/CTA";
+import ButtonBrown from "@/components/buttons/ButtonBrown";
 
 export default function usluge() {
 	return (
@@ -97,12 +98,25 @@ export default function usluge() {
 					icon={brushImage}
 				/>
 
-				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center mt-10 bg-red-100">
-					<Service
-						title="Hitne intervencije"
-						text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
-						url="/usluge/renovacije"
-					/>
+				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-red-100 lg:mb-10">
+					<div className="flex flex-col items-start py-12 pb-16 border border-b-lightbrown border-2 border-opacity-60 max-w-4xl px-8 gap-8">
+						<Link href="/usluge/hitne-intervencije" className="relative">
+							<div>
+								<div className="flex items-center gap-3">
+									<h3 className="text-3xl">Hitne intervencije</h3>
+								</div>
+								<p className="pt-6">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Recusandae ratione vitae voluptatem labore iusto, consequuntur
+									minima distinctio a praesentium reprehenderit. Porro omnis vel
+									fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo
+									temporibus eveniet commodi itaque repellat? Ad perferendis
+									itaque mollitia minus quibusdam et fuga? Aliquam sapiente
+									perspiciatis quae mollitia!
+								</p>
+							</div>
+						</Link>
+					</div>
 				</div>
 
 				<div className="lg:col-span-2">
@@ -118,9 +132,9 @@ export default function usluge() {
 
 				<Service
 					title="Renoviranje kuhinje"
-					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
-					url="/usluge/renovacije"
+					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia."
 					icon={kitchenImage}
+					url="/usluge/renoviranje-kuhinje"
 				/>
 
 				<div className="lg:col-span-2">
@@ -128,12 +142,25 @@ export default function usluge() {
 				</div>
 			</div>
 
-			<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-orange-300/40 lg:mb-10">
-				<Service
-					title="Posebne usluge"
-					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
-					url="/usluge/renovacije"
-				/>
+			<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-orange-300/40 mb-10">
+				<div className="flex flex-col items-start py-12 pb-16 border border-b-lightbrown border-2 border-opacity-60 max-w-4xl px-8 gap-8">
+					<Link href="/usluge/posebne-usluge" className="relative">
+						<div>
+							<div className="flex items-center gap-3">
+								<h3 className="text-3xl">Posebne usluge</h3>
+							</div>
+							<p className="pt-6">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Recusandae ratione vitae voluptatem labore iusto, consequuntur
+								minima distinctio a praesentium reprehenderit. Porro omnis vel
+								fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo
+								temporibus eveniet commodi itaque repellat? Ad perferendis
+								itaque mollitia minus quibusdam et fuga? Aliquam sapiente
+								perspiciatis quae mollitia!
+							</p>
+						</div>
+					</Link>
+				</div>
 			</div>
 		</>
 	);
