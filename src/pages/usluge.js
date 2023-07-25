@@ -8,6 +8,7 @@ import columnImage from "../../public/images/icons/column.svg";
 import brushImage from "../../public/images/icons/brush.svg";
 import kitchenImage from "../../public/images/icons/kitchen-icon.svg";
 import tilesImage from "../../public/images/icons/tiles.png";
+import contactBg from "../../public/images/contact-bg.jpg";
 
 import Service from "@/components/Service";
 import CTA from "@/components/CTA";
@@ -97,6 +98,14 @@ export default function usluge() {
 					icon={brushImage}
 				/>
 
+				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center mt-10 bg-red-100">
+					<Service
+						title="Hitne intervencije"
+						text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+						url="/usluge/renovacije"
+					/>
+				</div>
+
 				<div className="lg:col-span-2">
 					<CTA text="VAŠA ZAMISAO JE NAŠA MISIJA!" />
 				</div>
@@ -118,6 +127,14 @@ export default function usluge() {
 				<div className="lg:col-span-2">
 					<CTA text="Pozovite nas na 060 722 5558" url="tel:+381607225558" />
 				</div>
+			</div>
+
+			<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-orange-300/40 lg:mb-10">
+				<Service
+					title="Posebne usluge"
+					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					url="/usluge/renovacije"
+				/>
 			</div>
 		</>
 	);
