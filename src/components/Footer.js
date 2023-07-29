@@ -17,10 +17,7 @@ export default function Footer() {
 						<h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
 							MA-SI Hausmajstor Beograd
 						</h6>
-						<p>
-							Here you can use rows and columns to organize your footer content.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-						</p>
+						<p>Brza i pouzdana, po pristupačnim cenama.</p>
 					</div>
 					<div>
 						<Link
