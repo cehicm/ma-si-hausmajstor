@@ -141,7 +141,7 @@ function Header() {
 									</Link>
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
-										href="/usluge/molerski-radovi"
+										href="/usluge/adaptacija-kupatila"
 										onClick={() => {
 											setIsNavOpen((prev) => !prev);
 											setClickedClass((prev) => !prev);
