@@ -17,23 +17,14 @@ export default function posebneUsluge() {
 						className="w-full h-[500px] md:h-[700px] object-cover"
 					/>
 				</div>
-				<ServicePageHero
-					title="Usluge po Vašoj meri i potrebi"
-					text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
-					aspernatur deleniti accusantium ad at animi sapiente voluptatibus
-					labore, ratione tempora."
-				/>
+				<ServicePageHero title="Usluge po Vašoj meri" text="" />
 			</div>
 
 			<div className="py-6">
 				<div className="max-w-3xl mx-auto px-10">
 					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
-						aspernatur deleniti accusantium ad at animi sapiente voluptatibus
-						labore, ratione tempora.
-					</p>
-					<p className="block font-semibold mt-5">
-						MA-SI hausmajstor Beograd je tu za Vas!
+						Niste našli ono što Vam je potrebeno? Ne brinite! MA-SI hausmajstor
+						će Vam izaći u susret šta god da Vam je potrebno.
 					</p>
 				</div>
 
@@ -47,29 +38,9 @@ export default function posebneUsluge() {
 						</span>
 					</h3>
 				</div>
-
-				<div className="max-w-3xl mx-auto px-10">
-					<h2 className="text-xl pt-2 pb-5">Ova usluga se sastoji od:</h2>
-					<ul className="flex flex-col gap-5 list-disc">
-						<ServicePageShortDesc
-							pointTitle="Zakazivanje termina"
-							pointBody="pozovite nas kako bi smo se dogovorili oko termina koji Vama najviše odgovara. Ova usluga uglavnom podrazumeva izlasak na teren, ali u nekim okolnostima se može obaviti i u našem servisu."
-						/>
-						<ServicePageShortDesc
-							pointTitle="Temeljno pranje"
-							pointBody="detaljno ćemo oprati vaš nameštaj uz pomoć profesionalnih mašina za pranje, koje predstavljaju standard u industriji. Ovako ćemo se rešiti bilo kakvih fleka i mrlja, i osigurati generalnu čistoću i higijenu vašeg nameštaja."
-						/>
-
-						<ServicePageShortDesc
-							pointTitle="Sušenje"
-							pointBody="kako bi Vaš nameštaj zadržao svežinu, osušićemo ga uz pomoć profesionalnih mašina."
-						/>
-					</ul>
-				</div>
 			</div>
 
 			<CTA text="VAŠA ZAMISAO JE NAŠA MISIJA!" />
-			<ServiceGallery />
 		</section>
 	);
 }
