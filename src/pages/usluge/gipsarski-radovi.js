@@ -5,6 +5,8 @@ import ServicePageShortDesc from "@/components/servicepage/ServicePageShortDesc"
 import ServiceGallery from "@/components/servicepage/ServiceGalleryFour";
 import CTA from "@/components/CTA";
 
+import heroImg from "../../../public/images/gipsarksi-radovi-hero.jpg";
+
 import dropCeiling from "../../../public/images/drop-cieling.jpg";
 import spaceHorizontal from "../../../public/images/space-horizontal.jpg";
 import gipsarskiOne from "../../../public/images/gipsarski1.jpg";
@@ -16,7 +18,7 @@ export default function gipsarskiRadovi() {
 			<div className="relative flex justify-center">
 				<div className="z-0 w-full">
 					<Image
-						src={dropCeiling}
+						src={heroImg}
 						alt="placeholder image"
 						className="w-full h-[500px] md:h-[700px] object-cover"
 					/>
