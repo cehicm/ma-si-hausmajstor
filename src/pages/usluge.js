@@ -152,7 +152,7 @@ export default function usluge() {
 							<p className="pt-6">
 								Niste našli ono što Vam je potrebeno? Ne brinite! MA-SI
 								hausmajstor će Vam izaći u susret šta god da Vam je potrebno.
-								Pozovite nas na 060 722 5558 .
+								Pozovite nas na 060 722 5558.
 							</p>
 						</div>
 					</Link>
