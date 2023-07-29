@@ -17,7 +17,7 @@ export default function Footer() {
 						<h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
 							MA-SI Hausmajstor Beograd
 						</h6>
-						<p>Brza i pouzdana, po pristupačnim cenama.</p>
+						<p>Brza i pouzdana usluga, po pristupačnim cenama.</p>
 					</div>
 					<div>
 						<Link
