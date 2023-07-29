@@ -36,13 +36,17 @@ export default function usluge() {
 						<div className="flex flex-col items-center justify-between xl:flex-row">
 							<div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
 								<h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-									The quick, brown fox <br className="hidden md:block" />
-									jumps over a lazy dog
+									MA-SI <br className="hidden md:block" />
+									hausmajstor Beograd
 								</h2>
 								<p className="max-w-xl mb-6 text-base text-gray-200 md:text-lg">
-									Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-									accusantium doloremque laudan, totam rem aperiam, eaque ipsa
-									quae.
+									Vaš dom zaslužuje samo najbolje! Ako imate bilo kakav problem
+									u kući, bilo da je u pitanju curenje vode, kvar na
+									elektroinstalacijama, ili jednostavno želite da ulepšate
+									prostor, nemojte gubiti vreme i živce! Naš tim iskusnih
+									hausmajstora je tu da vam pruži sveobuhvatne i profesionalne
+									usluge koje će vaš dom učiniti sigurnim, funkcionalnim i
+									udobnim.
 								</p>
 								<Link
 									href="tel:+381607225558"
@@ -98,7 +102,7 @@ export default function usluge() {
 					icon={brushImage}
 				/>
 
-				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-red-100 mt-8 lg:mb-10">
+				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-red-100 mt-8">
 					<div className="flex flex-col items-start py-12 max-w-4xl px-8 gap-8">
 						<Link href="/usluge/hitne-intervencije" className="relative">
 							<div>
