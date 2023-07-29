@@ -56,7 +56,7 @@ export default function vodoinstalaterskeUsluge() {
 						<li>
 							Instalaciju i Zamenu Električnih Uređaja: Precizno instaliramo
 							nove uređaje i zamenjujemo stare kako biste mogli u potpunosti
-							iskoristiti njihove mogućnosti. e
+							iskoristiti njihove mogućnosti.
 						</li>
 					</ul>
 					<p className="block font-semibold mt-5">
@@ -77,10 +77,7 @@ export default function vodoinstalaterskeUsluge() {
 
 				<div className="max-w-3xl mx-auto px-10">
 					<h2 className="text-xl pt-2 pb-5">Zašto izabrati nas?</h2>
-					<ul
-						id="cleaning-description"
-						className="flex flex-col gap-5 list-disc"
-					>
+					<ul className="flex flex-col gap-5 list-disc">
 						<ServicePageShortDesc
 							pointTitle="Stručnost i Iskustvo"
 							pointBody="Naši hausmajstori su obučeni da se nose sa svim vrstama električarskih poslova i problema. Sa godinama iskustva iza nas, rešavanje svih vaših električarskih potreba je naše zadovoljstvo."
