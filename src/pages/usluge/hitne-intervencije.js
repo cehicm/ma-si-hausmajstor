@@ -6,7 +6,7 @@ import CTA from "@/components/CTA";
 
 import heroImg from "../../../public/images/electrical-gal1.jpg";
 
-export default function vodoinstalaterskeUsluge() {
+export default function hitneIntervencije() {
 	return (
 		<section>
 			<div className="relative flex justify-center">
