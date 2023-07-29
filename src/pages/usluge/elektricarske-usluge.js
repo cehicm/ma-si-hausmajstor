@@ -9,7 +9,7 @@ import heroImg from "../../../public/images/elektricarske-hero.jpg";
 import galleryOne from "../../../public/images/electrical-gal1.jpg";
 import galleryTwo from "../../../public/images/electrical-gal2.jpg";
 
-export default function vodoinstalaterskeUsluge() {
+export default function elektricarskeUsluge() {
 	return (
 		<section>
 			<div className="relative flex justify-center">

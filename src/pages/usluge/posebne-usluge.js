@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ServicePageHero from "@/components/servicepage/ServicePageHero";
 import ServicePageShortDesc from "@/components/servicepage/ServicePageShortDesc";
-import ServiceGallery from "@/components/servicepage/ServiceGallery";
+import ServiceGallery from "@/components/servicepage/ServiceGalleryFour";
 import heroImg from "../../../public/images/hero-img.jpg";
 import CTA from "@/components/CTA";
 
@@ -50,10 +50,7 @@ export default function posebneUsluge() {
 
 				<div className="max-w-3xl mx-auto px-10">
 					<h2 className="text-xl pt-2 pb-5">Ova usluga se sastoji od:</h2>
-					<ul
-						id="cleaning-description"
-						className="flex flex-col gap-5 list-disc"
-					>
+					<ul className="flex flex-col gap-5 list-disc">
 						<ServicePageShortDesc
 							pointTitle="Zakazivanje termina"
 							pointBody="pozovite nas kako bi smo se dogovorili oko termina koji Vama najviše odgovara. Ova usluga uglavnom podrazumeva izlasak na teren, ali u nekim okolnostima se može obaviti i u našem servisu."
