@@ -72,33 +72,33 @@ export default function usluge() {
 			<div className="grid grid-cols-1 lg:grid-cols-2 mt-12">
 				<Service
 					title="Vodoinstalaterske usluge"
-					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					text="MA-SI Hausmajstor Vam garantuje kvalitetne i brze vodoinstalaterske usluge na teritoriji Beograda. Takođe nudimo hitne intervencije i u mogućnosti smo da izađemo na teren i pomognemo Vam u rešavanju bilo kog problema."
 					url="/usluge/vodoinstalaterske-usluge"
 					icon={waterIcon}
 				/>
 
 				<Service
 					title="Električarske usluge"
-					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					text="Ukoliko su Vam potrebni električarski radovi u Beogradu, imate problema sa instalacijama, ili Vam je potrebna bilo kakva mala ili velika popravka &#8212; MA-SI Hausmajstor je mesto za vas. Kroz naše dugogodišnje iskustvo, stručnost i tim iskusnih električara, možemo da garantujemo da ćete biti zadovoljni našim uslugama."
 					url="/usluge/elektricarske-usluge"
 					icon={thunderIcon}
 				/>
 
 				<Service
 					title="Gipsarske usluge"
-					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					text="Realizovaćemo gipsarske radove na profesional i brz način, u skladu sa svetskim standardima suve gradnje. Mi pristupamo svakom poslu bez odlaganja, i bez kompromisa po kvalitet."
 					url="/usluge/gipsarske-usluge"
 					icon={columnImage}
 				/>
 
 				<Service
 					title="Molerski radovi"
-					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					text="Molerski radovi u Beogradu su naša specijalnost i u sklopu usluga nudimo: farbanje, gletovanje, i krečenje svih površina. Takođe ćemo sanitarati sve pukotine i oštećenja i osigurati se da Vaš prostor izgleda sveže i uredno."
 					url="/usluge/molerski-radovi"
 					icon={brushImage}
 				/>
 
-				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-red-100 lg:mb-10">
+				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-red-100 mt-8 lg:mb-10">
 					<div className="flex flex-col items-start py-12 max-w-4xl px-8 gap-8">
 						<Link href="/usluge/hitne-intervencije" className="relative">
 							<div>
@@ -106,13 +106,9 @@ export default function usluge() {
 									<h3 className="text-3xl">Hitne intervencije</h3>
 								</div>
 								<p className="pt-6">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Recusandae ratione vitae voluptatem labore iusto, consequuntur
-									minima distinctio a praesentium reprehenderit. Porro omnis vel
-									fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo
-									temporibus eveniet commodi itaque repellat? Ad perferendis
-									itaque mollitia minus quibusdam et fuga? Aliquam sapiente
-									perspiciatis quae mollitia!
+									Brza reakcija i profesionalna usluga. U bilo koje doba dana i
+									noći, mi ćemo izađi na teren {"("}bilo gde na teritoriji
+									Beograda {")"}i pomoći Vam. Pozovite nas na 060 722 5558 .
 								</p>
 							</div>
 						</Link>
@@ -125,14 +121,14 @@ export default function usluge() {
 
 				<Service
 					title="Renoviranje i adaptacija kupatila"
-					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia!"
+					text="MA-SI Hausmajstor Vam nudi renoviranje i adaptaciju kupatila, sa stručnim i iskusnim majstorima. Uz našu pomoć, možete da prilagodite svoj prostor sopstvenim potrebama i udahnete mu novi život."
 					url="/usluge/adaptacija-kupatila"
 					icon={tilesImage}
 				/>
 
 				<Service
 					title="Renoviranje kuhinje"
-					text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione vitae voluptatem labore iusto, consequuntur minima distinctio a praesentium reprehenderit. Porro omnis vel fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo temporibus eveniet commodi itaque repellat? Ad perferendis itaque mollitia minus quibusdam et fuga? Aliquam sapiente perspiciatis quae mollitia."
+					text="Prvi korak renoviranje kuhinje u Beogradu sa MA-SI Hausmajstorom uključuje pravljenje plana rasporeda. Tokom ovog proces, odgovorićemo na sva vaša pitanja i na vaše zahteve. Ukoliko još uvek niste sigurni šta želite, tu smo da vam pomognemo!"
 					icon={kitchenImage}
 					url="/usluge/renoviranje-kuhinje"
 				/>
@@ -150,13 +146,9 @@ export default function usluge() {
 								<h3 className="text-3xl">Posebne usluge</h3>
 							</div>
 							<p className="pt-6">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Recusandae ratione vitae voluptatem labore iusto, consequuntur
-								minima distinctio a praesentium reprehenderit. Porro omnis vel
-								fuga explicabo? Ipsam aperiam possimus, omnis saepe sint illo
-								temporibus eveniet commodi itaque repellat? Ad perferendis
-								itaque mollitia minus quibusdam et fuga? Aliquam sapiente
-								perspiciatis quae mollitia!
+								Niste našli ono što Vam je potrebeno? Ne brinite! MA-SI
+								hausmajstor će Vam izaći u susret šta god da Vam je potrebno.
+								Pozovite nas na 060 722 5558 .
 							</p>
 						</div>
 					</Link>
