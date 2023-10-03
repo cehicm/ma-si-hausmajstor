@@ -204,17 +204,6 @@ function Header() {
 							>
 								Galerija
 							</Link>
-
-							<Link
-								href="/kontakt"
-								className="hover:text-lightbrown  md:bg-transparent lg:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize lg:w-fit"
-								onClick={() => {
-									setIsNavOpen((prev) => !prev);
-									setClickedClass((prev) => !prev);
-								}}
-							>
-								Kontakt
-							</Link>
 						</ul>
 					</nav>
 				</div>
