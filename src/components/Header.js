@@ -67,7 +67,7 @@ function Header() {
 						<ul
 							className={`flex flex-col w-full md:w-fit lg:w-full max-w-3xl md:m-0 text-left justify-center lg:justify-start items-start mx-auto gap-2 md:gap-8 xl:gap-16 ${
 								isNavOpen ? "block" : "hidden"
-							} lg:grid grid-flow-col`}
+							} lg:flex lg:flex-row`}
 						>
 							<Link
 								className={`md:hidden md:bg-transparent w-full py-2 pl-2 md:p-0 rounded-md capitalize`}
