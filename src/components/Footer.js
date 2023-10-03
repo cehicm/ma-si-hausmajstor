@@ -66,12 +66,6 @@ export default function Footer() {
 							>
 								Galerija
 							</Link>
-							<Link
-								href="/cenovnik"
-								className="text-neutral-600 dark:text-neutral-200 hover:bg-dirtygray hover:text-white p-2"
-							>
-								Cenovnik
-							</Link>
 						</ul>
 					</div>
 					<div>
