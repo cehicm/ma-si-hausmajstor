@@ -113,7 +113,7 @@ function Header() {
 
 									<Link
 										className="p-2 md:border-white border-double md:border-b-2 hover:bg-dirtygray hover:text-white"
-										href="/usluge/elektricarski-radovi"
+										href="/usluge/elektricarske-usluge"
 										onClick={() => {
 											setIsNavOpen((prev) => !prev);
 											setClickedClass((prev) => !prev);

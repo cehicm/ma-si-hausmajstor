@@ -20,7 +20,7 @@ export default function adaptacijaKupatila() {
 					/>
 				</div>
 				<ServicePageHero
-					title="Renoviranje, adaptacija i popravka kuhinjskih elementa"
+					title="Renoviranje i adaptacija kuhinje"
 					text="Vaša kuhinja je srce vašeg doma, mjesto gde se Vaša porodica i prijatelji okupljaju. MA-SI tim za renoviranje kuhinje će stvoriti prostor koji će Vam pružiti užitak u pripremi hrane i druženju."
 				/>
 			</div>

@@ -23,7 +23,7 @@ export default function adaptacijaKupatila() {
 				</div>
 				<ServicePageHero
 					title="Renoviranje i adaptacija kupatila"
-					text="MA-SI Hausmajstor Vam nudi renoviranje i adaptaciju kupatila, sa stručnim i iskusnim majstorima. Uz našu pomoć, možete da prilagodite svoj prostor sopstvenim potrebama i udahnete mu novi život."
+					text="Uz našu pomoć, možete da prilagodite svoj prostor sopstvenim potrebama i udahnete mu novi život."
 				/>
 			</div>
 

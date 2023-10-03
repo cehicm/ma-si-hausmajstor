@@ -25,7 +25,7 @@ export default function vodoinstalaterskeUsluge() {
 				</div>
 				<ServicePageHero
 					title="Vodoinstalaterske usluge u Beogradu"
-					text="Ukoliko su Vam potrebni električarski radovi u Beogradu, imate problema sa instalacijama, ili Vam je potrebna bilo kakva mala ili velika popravka — MA-SI Hausmajstor je mesto za vas. Kroz naše dugogodišnje iskustvo, stručnost i tim iskusnih električara, možemo da garantujemo da ćete biti zadovoljni našim uslugama."
+					text="Ukoliko su Vam potrebni električarski radovi u Beogradu, imate problema sa instalacijama, ili Vam je potrebna bilo kakva mala ili velika popravka — MA-SI Hausmajstor je mesto za vas."
 				/>
 			</div>
 
