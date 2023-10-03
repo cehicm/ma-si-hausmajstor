@@ -5,8 +5,8 @@ import ButtonBrown from "./buttons/ButtonBrown";
 
 export default function Service({ title, text, url, icon }) {
 	return (
-		<div className="flex flex-col items-start py-12 pb-16 border border-b-lightbrown border-2 border-opacity-60 max-w-4xl px-8 gap-8">
-			<Link href={url} className="relative">
+		<div className="flex flex-col items-start py-12 pb-16 border border-b-lightbrown border-2 border-opacity-60 max-w-4xl lg:max-w-none px-8 gap-8">
+			<Link href={url} className="relative lg:max-w-4xl">
 				<Image
 					src={icon}
 					className="w-full h-full absolute opacity-10 object-contain"

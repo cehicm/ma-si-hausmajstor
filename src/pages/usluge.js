@@ -102,8 +102,8 @@ export default function usluge() {
 					icon={brushImage}
 				/>
 
-				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-red-100 mt-8">
-					<div className="flex flex-col items-start py-12 max-w-4xl px-8 gap-8">
+				<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-red-100">
+					<div className="flex flex-col items-start py-12 max-w-4xl  px-8 gap-8">
 						<Link href="/usluge/hitne-intervencije" className="relative">
 							<div>
 								<div className="flex items-center gap-3">
@@ -119,10 +119,6 @@ export default function usluge() {
 					</div>
 				</div>
 
-				<div className="lg:col-span-2">
-					<CTA text="VAŠA ZAMISAO JE NAŠA MISIJA!" />
-				</div>
-
 				<Service
 					title="Renoviranje i adaptacija kupatila"
 					text="MA-SI Hausmajstor Vam nudi renoviranje i adaptaciju kupatila, sa stručnim i iskusnim majstorima. Uz našu pomoć, možete da prilagodite svoj prostor sopstvenim potrebama i udahnete mu novi život."
@@ -136,13 +132,9 @@ export default function usluge() {
 					icon={kitchenImage}
 					url="/usluge/renoviranje-kuhinje"
 				/>
-
-				<div className="lg:col-span-2">
-					<CTA text="Pozovite nas na 060 722 5558" url="tel:+381607225558" />
-				</div>
 			</div>
 
-			<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-orange-300/40 mb-10">
+			<div className="lg:col-span-2 w-full mx-auto lg:flex lg:justify-center bg-orange-300/40">
 				<div className="flex flex-col items-start py-12 pb-16 max-w-4xl px-8 gap-8">
 					<Link href="/usluge/posebne-usluge" className="relative">
 						<div>
